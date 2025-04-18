@@ -1,7 +1,7 @@
 streamlit
 # tensorflow==2.15.0
 tensorflow==2.18.1
-keras==2.18.1
+keras>=3.5.0
 pandas
 numpy
 scikit-learn

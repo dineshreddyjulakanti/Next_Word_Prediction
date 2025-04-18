@@ -53,7 +53,7 @@ def predict_next_word(model, tokenizer, text, max_sequence_len):
             return word
     return None
 
-st.title("Next Word Prediction With LSTM And Early Stopping")
+st.title("Next Word Prediction With LSTM")
 input_text = st.text_input("Enter the sequence of Words", "To be or not to")
 if st.button("Predict Next Word"):
     max_sequence_len = model.input_shape[1] + 1
